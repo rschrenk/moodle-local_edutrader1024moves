@@ -21,6 +21,5 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['itemtitle'] = '1024 moves';
 $string['pluginname'] = 'eduTrader - 1024 moves';
 $string['privacy:metadata'] = 'Not storing personal information';

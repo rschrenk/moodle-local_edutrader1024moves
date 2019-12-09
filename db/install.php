@@ -29,6 +29,7 @@ function xmldb_local_edutrader1024moves_install(){
         'duration' => 600,
         'itemid' => '1024moves',
         'price' => 100,
+        'title' => '1024 moves',
         'type' => 'smartness',
     );
     $DB->insert_record('block_edutrader_items', $obj, true);
