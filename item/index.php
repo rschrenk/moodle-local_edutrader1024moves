@@ -1,5 +1,5 @@
 <?php
-require_once('../../config.php');
+require_once('../../../config.php');
 define('block_edutrader_item', '1024moves');
 require($CFG->dirroot . '/blocks/edutrader/launch.php');
 ?><html><head><title>CUBE</title><meta http-equiv="content-type" content="text/html; charset=UTF-8">
