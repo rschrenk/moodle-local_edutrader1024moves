@@ -1,7 +1,7 @@
 <?php
-define('block_edutrader_item', '1024-moves');
-require('../../config.php');
-require($CFG->dirroot . 'blocks/edutrader/launch.php');
+require_once('../../config.php');
+define('block_edutrader_item', '1024moves');
+require($CFG->dirroot . '/blocks/edutrader/launch.php');
 ?><html><head><title>CUBE</title><meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <script src="lost.js"></script><style type="text/css">body {margin:0;}#HUD {position:absolute;top:0;left:0;}</style>
 <script id="shader-fs" type="x-shader/x-fragment">

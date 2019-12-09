@@ -16,18 +16,14 @@
 
 /**
  * @package    local_edutrader1024moves
- * @copyright  2020 Center for Learning Management (www.lernmanagement.at)
+ * @copyright  2019 Zentrum für Lernmanagement (www.lernmanagement.at)
  * @author     Robert Schrenk
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version  = 2019120400;
-$plugin->requires = 2014051200;
-$plugin->component = 'local_edutrader1024moves';
-$plugin->release = '0.1 (Build: 2019120400) - Just an Idea';
-$plugin->maturity = MATURITY_STABLE;
-$plugin->dependencies = array(
-    'block_edutrader' => 2019120400,
-);
+function xmldb_local_edutrade1024moves_uninstall(){
+    global $DB;
+    $DB->delete_records('block_edutrader_items', array('itemid' => '1024moves'));
+}
