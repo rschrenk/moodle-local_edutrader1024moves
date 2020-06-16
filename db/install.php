@@ -23,7 +23,7 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-function xmldb_local_edutrader1024moves_install(){
+function xmldb_local_edutrader1024moves_install() {
     global $DB;
     $obj = (object) array(
         'duration' => 600,
